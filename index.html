@@ -24,10 +24,15 @@
         </script>
     </head>
     <body class="body">
+        <div id="waiting-message">
+        <h2>Trang web sẽ hoạt động sau 10h30 tối nay (14/09/2025)!</h2>
+        <p>Vui lòng quay lại sau nhé! ❤️</p>
+    </div>
+    <div id="main-content" style="display: none;">
         <div class="phu"></div>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-anijs="if: mouseover, do: bounceIn animated" style="background-color: #f99ec7 !important;box-shadow: 0 0 2px 0 #acacac;">
-            <img class="pull-left" style="display: inline-block !important;margin: 10px 25px 10px 60px" src="images/logo.png" title="">
-            <div class="col-xs-16 text-center txt" data-bind="" style="font-family: 'Lobster', cursive;">
+            <img class="pull-left" style="display: inline-block !important;" src="images/logo.png" title="">
+            <div class="col-12 text-center txt" data-bind="" style="font-family: 'Lobster', cursive;">
                 Dear Mai Chi Nguyen
             </div>
         </nav>
@@ -167,6 +172,7 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <script src="public/theme/hoa.js"></script>
         <script src="public\js\time.js"></script>
+        <script src="public\js\check_time.js"></script>
         <script src="public/js/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="public/js/jquery-ui.min.js"></script>
         <script src="public/js/jquery.ui.touch-punch.min.js"></script>
@@ -218,11 +224,10 @@
                     //$('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
                 }
             });
-
-            
-            
-            
         </script>
+
+
+
     </body>
 </html>
 <!-- phím tắt tìm kiếm cttrl + f -->
