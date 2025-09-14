@@ -509,7 +509,7 @@ p.underline2-desc {
 
 .ch-grid li img {
     position: absolute;
-    left: 0;
+    left: -15%;
     width: 300px;
     border-radius: 50%;
 }
@@ -2227,7 +2227,7 @@ video#bgvideo {
     }
 
     .ch-grid li img {
-        width: 100%;
+        width: 80%;
     }
 
     .messages h4 {
@@ -3199,7 +3199,7 @@ input[type=text]::-ms-clear {
 .countdown-display {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 6px;
 }
 
 .countdown-display div {
